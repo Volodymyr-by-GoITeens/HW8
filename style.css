@@ -1,0 +1,169 @@
+/*1 Завдання*/
+#greycol {
+    color: grey;
+}
+.yellow {
+    color: yellow;
+}
+div div p {
+    color: red;
+}
+div + h3 + p {
+    color: green;
+}
+div.text-box > h3 {
+    color: pink;
+}
+
+/*2 Завдання*/
+/*border & caption*/
+table th, table td {
+    padding: 10px;
+    border: 1px solid #2a2a2a;
+}
+table {
+    border-collapse: collapse;
+}
+caption {
+    font-size: 24px;
+}
+
+/*Час & Тиждкень*/
+td:first-child:hover {
+    color: white;
+    background-color: rgb(30, 30, 30);
+}
+th:hover {
+    color: white;
+    background-color: rgb(10, 10, 10);
+}
+
+/*Ателієр*/
+tr:nth-child(5) > td:nth-child(even) {
+    background-color: red;
+}
+tr:nth-child(5) > td:nth-child(even):hover {
+    background-color: rgb(184, 2, 2);
+}
+
+/*Музика*/
+tr:nth-child(8) > td:nth-child(2) {
+    background-color: purple;
+}
+tr:nth-child(8) > td:nth-child(2):hover {
+    background-color: rgb(92, 1, 92);
+}
+
+/*Шиття & Труди*/
+tr:nth-child(-n+4) > td:nth-child(2) {
+    background-color: yellow;
+}
+tr:nth-child(-n+4) > td:nth-child(2):hover {
+    background-color: rgb(219, 219, 2);
+}
+
+/*Обід & Пусті*/
+tr:nth-child(1) > td:nth-child(4), tr:nth-child(6) > td:nth-child(2), tr:nth-child(7) > td:nth-child(even), tr:nth-child(10) > td:nth-child(2) {
+    background-color: gray;
+}
+tr:nth-child(6) > td:nth-child(2):hover {
+    background-color: rgb(97, 97, 97);
+}
+
+/*Банда*/
+tr:nth-child(5) > td:nth-child(3) {
+    background-color: #656565;
+}
+tr:nth-child(5) > td:nth-child(3):hover {
+    background-color: #494949;
+}
+
+/*Інформатика*/
+tr:nth-child(7) > td:nth-child(3) {
+    background-color: rgb(21, 21, 73);
+    color: white;
+}
+tr:nth-child(7) > td:nth-child(3):hover {
+    background-color: rgb(14, 14, 51);
+    color: white;
+}
+
+/*Классний час*/
+tr:nth-child(2) > td:nth-child(4), tr:nth-child(8) > td:nth-child(5) {
+    background-color: #991f1b;
+}
+tr:nth-child(2) > td:nth-child(4):hover, tr:nth-child(8) > td:nth-child(5):hover {
+    background-color: #741814;
+}
+
+/*Французкий*/
+tr:nth-child(9) > td:nth-child(2), tr:nth-child(3) > td:nth-child(3), tr:nth-child(7) > td:nth-child(5), tr:nth-child(8) > td:nth-child(4) {
+    background-color: aqua;
+}
+tr:nth-child(9) > td:nth-child(2):hover, tr:nth-child(3) > td:nth-child(3):hover, tr:nth-child(7) > td:nth-child(5):hover, tr:nth-child(8) > td:nth-child(4):hover {
+    background-color: rgb(2, 211, 211);
+}
+
+/*Малювання*/
+tr:nth-child(n+9) > td:nth-child(5) {
+    background-color: violet;
+}
+tr:nth-child(n+9) > td:nth-child(5):hover {
+    background-color: rgb(211, 115, 211);
+}
+
+/*Біологія*/
+tr:nth-child(3) > td:nth-child(4), tr:nth-child(4) > td:nth-child(4) {
+    background-color: rgb(0, 180, 0);
+}
+tr:nth-child(3) > td:nth-child(4):hover, tr:nth-child(4) > td:nth-child(4):hover {
+    background-color: rgb(0, 150, 0);
+}
+
+/*Исторія & Географія*/
+tr:nth-child(2) > td:nth-child(3), tr:nth-child(n+9) > td:nth-child(4) {
+    background-color: rgb(90, 233, 90);
+}
+tr:nth-child(2) > td:nth-child(3):hover, tr:nth-child(n+9) > td:nth-child(4):hover {
+    background-color: rgb(90, 203, 90);
+}
+
+/*Математика*/
+tr:nth-child(2) > td:nth-child(5), tr:nth-child(3) > td:nth-child(6), tr:nth-child(4) > td:nth-child(3n){
+    background-color: rgb(81, 91, 224);
+}
+tr:nth-child(2) > td:nth-child(5):hover, tr:nth-child(3) > td:nth-child(6):hover, tr:nth-child(4) > td:nth-child(3n):hover{
+    background-color: rgb(63, 70, 177);
+}
+
+/*Английский*/
+tr:nth-child(1) > td:nth-child(6), tr:nth-child(8) > td:nth-child(3) {
+    background-color: aquamarine;
+}
+tr:nth-child(1) > td:nth-child(6):hover, tr:nth-child(8) > td:nth-child(3):hover {
+    background-color: rgb(104, 211, 175);
+}
+
+/*Німецкий для мігрантів*/
+tr:nth-child(1) > td:nth-child(5), tr:nth-child(3) > td:nth-child(5) {
+    background-color: coral;
+}
+tr:nth-child(1) > td:nth-child(5):hover, tr:nth-child(3) > td:nth-child(5):hover {
+    background-color: rgb(216, 107, 68);
+}
+
+/*Німецкий*/
+tr:nth-child(1) > td:nth-child(3), tr:nth-child(2) > td:nth-child(6), tr:nth-child(4) > td:nth-child(5) {
+    background-color: orangered;
+}
+tr:nth-child(1) > td:nth-child(3):hover, tr:nth-child(2) > td:nth-child(6):hover, tr:nth-child(4) > td:nth-child(5):hover {
+    background-color: rgb(226, 60, 0);
+}
+
+/*Спорт*/
+tr:nth-child(5) > td:nth-child(5), tr:nth-child(n+9) > td:nth-child(3) {
+    background-color: rgb(230, 227, 57);
+}
+tr:nth-child(5) > td:nth-child(5):hover, tr:nth-child(n+9) > td:nth-child(3):hover {
+    background-color: rgb(201, 198, 50);
+}
