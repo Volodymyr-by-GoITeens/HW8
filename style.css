@@ -11,7 +11,7 @@ div div p {
 div + h3 + p {
     color: green;
 }
-div.text-box > h3 {
+div.text-box > h3:nth-child(1) {
     color: pink;
 }
 
